@@ -1,0 +1,10 @@
+applications:
+- command: npm start
+  domain: null
+  host: null
+  instances: 1
+  memory: 256M
+  name: NYCB
+  path: .
+  routes:
+  - route: asm.us-south.cf.appdomain.cloud
